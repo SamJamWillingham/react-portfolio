@@ -4,13 +4,12 @@ import "./App.css";
 export default function Social() {
   return (
     <div className="Social">
-      <h3>social</h3>
       <a
         href="https://www.linkedin.com/in/samantha-willingham-79576a1a8/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="linked-in">LinkedIn</button>
+        <button className="linked-in">linkedin</button>
       </a>
       <a
         href="https://www.upwork.com/freelancers/~01f079375f21581fb6"
@@ -24,7 +23,7 @@ export default function Social() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="gitHub">GitHub</button>
+        <button className="gitHub">github</button>
       </a>
     </div>
   );

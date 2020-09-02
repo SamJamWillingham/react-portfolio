@@ -1,12 +1,9 @@
-.Container {
+.About {
   text-align: center;
   display: block;
   margin: 15px auto;
   background-color: #000000;
   padding: 15px 0 30px 0;
-  max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 4px 4px 0px #00bcd4;
 }
 
 .App-logo {
@@ -31,18 +28,16 @@
     transform: rotate(360deg);
   }
 }
-ul.navbar-nav {
-  text-align: center;
-}
+
 img.profile {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 20px 0 20px 40px;
   border-radius: 50%;
 }
 
 button {
-  display: block;
-  margin: 15px auto;
+  display: inline;
+  margin: 15px;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   color: #ffffff;
@@ -51,31 +46,94 @@ button {
   padding: 10px 15px 10px 15px;
   border-radius: 8px;
 }
+
 button:hover {
   color: black;
   background: #ffffff;
   border: 1px solid #000000;
-  box-shadow: 4px 4px 0px #00bcd4, 6px 6px 0px #b2ebf2, 8px 8px 0px #ff5722,
-    10px 10px 0px #dd2c00;
+  box-shadow: -4px 4px 0px #00bcd4, -6px 6px 0px #b2ebf2, -8px 8px 0px #ff5722,
+    -10px 10px 0px #dd2c00;
   cursor: pointer;
-}
-a {
   text-decoration: none;
 }
-h1 {
+
+.Header {
   margin-top: 0;
   text-align: center;
   font-family: "Bungee Shade", cursive;
-  color: #ffffff;
+  font-weight: bold;
+  color: #000000;
   font-size: 40px;
+}
+
+.Header:hover {
+  text-shadow: -2px 2px 0px #00bcd4, -4px 4px 0px #b2ebf2, -6px 6px 0px #ff5722,
+    -8px 8px 0px #dd2c00;
+}
+
+.title {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Bungee Shade", cursive;
+  color: #b2ebf2;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  display: inline;
+  margin-left: 15px;
+  color: #ffffff;
 }
 h3 {
   margin: 0;
   text-align: center;
   font-family: "Bebas Neue", cursive;
-  color: #ffffff;
+  color: #000000;
   font-size: 30px;
   padding: 0;
+}
+div.Tech {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+.techImg {
+  display: inline;
+  margin: 20px;
+}
+.Projects {
+  display: block;
+  background-color: #000000;
+  margin-top: 20px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.ProjectsHeader {
+  color: #ffffff;
+  margin-top: 15px;
+  padding: 15px;
+}
+.Contact {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  background: #00bcd4;
+  color: #000000;
+  padding: 35px;
+}
+.emailBtn:hover {
+  text-shadow: -2px 2px 0px #00bcd4, -4px 4px 0px #b2ebf2, -6px 6px 0px #ff5722,
+    -8px 8px 0px #dd2c00;
 }
 .Footer {
   display: block;
