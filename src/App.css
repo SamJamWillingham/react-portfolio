@@ -31,6 +31,9 @@
     transform: rotate(360deg);
   }
 }
+ul.navbar-nav {
+  text-align: center;
+}
 img.profile {
   display: block;
   margin: 0 auto;
