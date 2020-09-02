@@ -63,7 +63,7 @@ export default function Social() {
         Reach Out
         <br />
         <a href="mailto:sam@samjamwillingham.com" className="emailBtn">
-          sam@samjamwillingham.com
+          SamanthaLF8@gmail.com
         </a>
       </div>
     </div>
